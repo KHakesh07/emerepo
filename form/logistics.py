@@ -27,7 +27,7 @@ def fetch_latest_event():
 
 
 # --- Google Maps API Key ---
-GOOGLE_MAPS_API_KEY = "AIzaSyAr3YAZlR8CNcjPoRA4hV_ePS93bCF39EQ"
+GOOGLE_MAPS_API_KEY = st.secrets["google"]["maps_api_key"]
 
 st_autorefresh(interval=1000, key="latest_event_refresh")
 Event = fetch_latest_event()
