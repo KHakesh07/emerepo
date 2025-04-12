@@ -1,0 +1,8 @@
+streamlit
+pillow
+qrcode[pil]
+geopy
+googlemaps
+streamlit_autorefresh
+pandas
+plotly
